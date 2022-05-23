@@ -12,22 +12,20 @@
   text-align: right;
 }
   
-.header__logo{
-    width: 100%;
-}
-.matrix__link{
-    font-family: fantasy, cursive;
+.header__logo {
+  width: 100%;
 }
 
-@media (max-width:768px) {
-.aaa { text-align: center;
+.matrix__link {
+  font-family: fantasy, cursive;
 }
+
+.main {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
 }
-.centered-main-page-element {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
-}
+
 .task {
     width: 56%;
     display: inline-block;
@@ -147,4 +145,12 @@ ul li.editMode input[type=text] {
 
 ul li.editMode label {
     display:none;
+}
+
+@media (max-width: 768px) {
+
+  .header {
+    text-align: center;
+  }
+    
 }
