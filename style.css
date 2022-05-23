@@ -1,19 +1,21 @@
 /* Basic Style */
-body {
-    background-color: #f8f8f8;
-    color: #333;
-    font-family: Lato, sans-serif;
+.body {
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
 }
-.aaa {
-    width: 500px;
-    margin: 0 auto;
-    display: block;
-    text-align: right;
+
+.header {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
 }
-.aaa img {
+  
+.header__logo{
     width: 100%;
 }
-.aaa .more_inf {
+.matrix__link{
     font-family: fantasy, cursive;
 }
 
@@ -130,7 +132,7 @@ button.delete img:hover {
 /* Completed */
 ul#completed-tasks label {
     text-decoration: line-through
-    color: #888;
+    color #888;
 }
 
 /* Edit Task */
