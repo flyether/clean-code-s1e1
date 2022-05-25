@@ -8,7 +8,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
   <title>Todo App</title>
 </head>
 <body class="body">
@@ -21,58 +20,48 @@
       <h3 class="new-task__title"><label for="new-task__text">Add Item</label></h3>
       <div class="new-task__input-wrapper">
         <input class="new-task__text task" type="text">
-   <button class="new-task__btn button">Add</button>
+        <button class="new-task__btn button">Add</button>
       </div>
     </section>
     <section class="todo-task">
-    <h3 class="todo-task__title">Todo</h3>
+      <h3 class="todo-task__title">Todo</h3>
       <ul class="todo-task__list list">
-    <li>
-      <input class="task-checkbox" type="checkbox" />
-    <label class="task-label task">Pay Bills</label>
-      <input class="task" type="text" />
-   <button class="button btn-edit">Edit</button>
-     <button class="button btn-delete">
-    <img src="./remove.svg" alt="deletion" />
-   </button>
-    </li>
-     <li class="editMode">
-  <label class="task-label task">Go Shopping</label>
-    <input class="task" type="text" value="Go Shopping" />
-   <button class="button btn-edit">Save</button>
-   <button class="button btn-delete">
-   <img src="./remove.svg" alt="Remove" />
-   </button>
-  </li>
-  </ul>
+        <li>
+          <input class="task-checkbox" type="checkbox" />
+          <label class="task-label task">Pay Bills</label>
+          <input class="task" type="text" />
+          <button class="button btn-edit">Edit</button>
+          <button class="button btn-delete">
+            <img src="./remove.svg" alt="deletion" />
+          </button>
+        </li>
+        <li class="editMode">
+          <input class="task-checkbox" type="checkbox" />
+          <label class="task-label task">Go Shopping</label>
+          <input class="task" type="text" value="Go Shopping" />
+          <button class="button btn-edit">Save</button>
+          <button class="button btn-delete">
+            <img src="./remove.svg" alt="Remove" />
+          </button>
+        </li>
+      </ul>
     </section>
-
-<section class="completed-task">
- <h3 class="completed-task__title">Completed</h3>
-  <ul class="completed-task__list list">
- <li>
-  <input class="task-checkbox" type="checkbox" checked />
-   <label class="task-label task">See the Doctor</label>
-  <input class="task" type="text" />
-   <button class="button btn-edit">Edit</button>
- <button class="button btn-delete">
-   <img src="./remove.svg" alt="Remove" />
-   </button>
- </li>
+    <section class="completed-task">
+      <h3 class="completed-task__title">Completed</h3>
+      <ul class="completed-task__list list">
+        <li>
+          <input class="task-checkbox" type="checkbox" checked />
+          <label class="task-label task">See the Doctor</label>
+          <input class="task" type="text" />
+          <button class="button btn-edit">Edit</button>
+          <button class="button btn-delete">
+            <img src="./remove.svg" alt="Remove" />
+          </button>
+        </li>
       </ul>
     </section>
   </main>
-
-</p><h3>Todo</h3>
-<ul id='incompleteTasks'>
-<li><input type='checkbox'><label class="task">Pay Bills</label><input type="text" class="task"><button class="edit">Edit</button><button class="delete"><img src="./remove.svg"></button></li>
-<li class="editMode"><input type="checkbox"><label class="task">Go Shopping</label><input type="text" value="Go Shopping" class="task"><button class='edit'>Save</button><button class="delete"><img src="./remove.svg"></button></li>
-</ul><h3>Completed</h3><ul id="completed-tasks"><li><input type="checkbox" checked><label class="task">See the Doctor</label><input type="text" class="task"><button class="edit">Edit</button><button class="delete"><img src="./remove.svg"></button>
-</li>
-</ul>
-</div>
-
-
-<script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
+
