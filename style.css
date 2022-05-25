@@ -146,7 +146,8 @@
   
 /* Completed */
 /* TODO подправить */
-.completed-task__list .task-label {
+.completed-task__list
+.task-label {
     text-decoration: line-through;
     color: #888888;
   }
