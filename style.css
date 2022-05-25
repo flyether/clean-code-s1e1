@@ -7,7 +7,7 @@
 /* Basic Style */
 .body {
   background-color: #f8f8f8;
-font-family: Lato, sans-serif;
+  font-family: Lato, sans-serif;
 }
   
 .list {
@@ -48,9 +48,9 @@ font-family: Lato, sans-serif;
   width: 226px;
 }
   
-  .task:focus {
-    color: #333333;
-  }
+.task:focus {
+  color: #333333;
+}
 
 /* heder */
 
@@ -96,76 +96,75 @@ font-family: Lato, sans-serif;
   padding: 30px 0 10px;
   text-transform: uppercase;
 }
-  
 
 /* New Task */
   
-  .new-task__input-wrapper {
-    display: flex;
-  }
+.new-task__input-wrapper {
+  display: flex;
+}
  
-  .new-task__title {
-    display: block;
-    margin: 0 0 20px;
-  }
+.new-task__title {
+  display: block;
+  margin: 0 0 20px;
+}
   
-  .new-task__text {
-    width: 318px;  
-  }
+.new-task__text {
+  width: 318px;  
+}
   
-  /* Task list */
+/* Task list */
   
-  .list > li {
-    overflow: hidden;
-    padding: 20px 0;
-    border-bottom: 1px solid #eeeeee;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.list > li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
   
-  .list-checkbox {
-    margin: 0 10px;
-  }
+.list-checkbox {
+  margin: 0 10px;
+}
   
-  .task-label {
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 18px;
-    width: 226px;  
-  }
+.task-label {
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;  
+}
   
-  .btn-delete > img {
-    height: 2em;
-    transform: rotateZ(45deg);
-    transition: transform 200ms ease-in;
-  }
+.btn-delete > img {
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
+}
   
-  .btn-delete > img:hover {
-    transform: rotateZ(0);
-  }
+.btn-delete > img:hover {
+  transform: rotateZ(0);
+}
   
-  /* Completed */
-  
-  .completed-task__list .task-label {
+/* Completed */
+/* TODO подправить */
+.completed-task__list .task-label {
     text-decoration: line-through;
     color: #888888;
   }
   
-  /* Edit Task */
+/* Edit Task */
   
-  .list input {
-    display: none;
-  }
+.list input {
+  display: none;
+}
   
-  .editMode input[type="text"] {
-    display: inline-block;
-    width: 224px;
-  }
+.editMode input[type="text"] {
+  display: inline-block;
+  width: 224px;
+}
   
-  .editMode label {
-    display: none;
-  }
+.editMode label {
+  display: none;
+}
 
 @media (max-width: 768px) {
 
