@@ -154,7 +154,7 @@ font-family: Lato, sans-serif;
   
   /* Edit Task */
   
-  .list input[type="text"] {
+  .list input {
     display: none;
   }
   
