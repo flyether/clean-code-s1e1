@@ -75,7 +75,6 @@
   width: 500px;
   margin: 0 auto;
 }
-  
    
  /* Heading */
  
@@ -148,9 +147,9 @@
 
 .completed-task__list
 .task-label {
-    text-decoration: line-through;
-    color: #888888;
-  }
+  text-decoration: line-through;
+  color: #888888;
+}
   
 /* Edit Task */
   
