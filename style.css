@@ -153,7 +153,7 @@
   
 /* Edit Task */
   
-.list input {
+.list input[type="text"]{
   display: none;
 }
   
